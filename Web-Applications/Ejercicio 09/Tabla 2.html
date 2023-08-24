@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 9 Modelo Cabecera</title>
+        <style>
+            body {
+                background-color: pink;
+            }
+            table {
+                border: 1px solid blue; border-collapse: separate; margin-left: auto; margin-right: auto;
+                border-spacing: 1px ; background-color:#a600e9; height: 60%; width: 40%;
+            }
+            h1 {
+                caption-side: top; text-align: center;
+            }
+            tr {
+                border: 1px solid blue; padding: 7px;
+            }
+            td {
+                border: 1px solid blue; text-align: center; padding: 7px;
+            }
+            #clase1 {
+                text-align: center; padding: 7px; font-weight: bold; font-style: italic;
+            }
+            #clase2 { 
+                text-align: center; vertical-align: top; padding: 7px; font-weight: bold;
+            }
+            #clase3 {
+                text-align: left; padding: 7px; font-weight: bold;
+            }
+            #clase4 {
+                text-align: center; vertical-align: bottom; padding: 7px; font-weight: bold;
+            }
+            #clase5 {
+                text-align: center; padding: 7px; font-weight: bold
+            }
+            #clase6 {
+                background-color:yellow; text-align: center; padding: 7px
+            }
+            #clase7 {
+                background-color:#09F734; padding: 7px
+            }
+        </style>
+    </head>
+    <body>
+
+<!--En este ejercicio vamos a usar el modelo CSS incrustado en la cabecera-->
+
+        <table>
+            <h1>EJERCICIO DE TABLAS</h1>
+            <tr>
+                <td colspan="4" id="clase1">
+                        DIFERENCIAS ENTRE EL PERRO Y EL HOMBRE
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" id="clase2">
+                        DIFERENCIAS
+                </td>
+                <td colspan="2" id="clase3">
+                        PERRO
+                    <td rowspan="2" id="clase4">
+                            HOMBRE
+                    </td>
+                        <tr>
+                            <td id="clase5">
+                                PEQUEÑO
+                            </td>
+                            <td id="clase5">
+                                GRANDE
+                            </td>
+                        </tr>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Duración crecimiento
+                </td>
+                <td id="clase6">
+                    10 meses
+                </td>
+                <td>
+                    18 a 24 meses
+                </td>
+                </td>
+                    <td>
+                        16 años
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    Tiempo de gestación
+                </td>
+                <td colspan="2">
+                    58 a 63 días
+                </td>
+                <td id="clase6">
+                    9 meses
+                </td>
+
+            <tr id="clase7">
+                <td>
+                Duración de vida del pelo/cabello
+                </td>
+                <td colspan="2">
+                    1 año
+                </td>
+                <td>
+                    2 a 7 años
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,152 @@
+* {
+    margin: 0em;
+    padding: 0em; 
+ }
+
+body {
+    background-image: url("images/fondo.jpg");
+    color: #192666;
+    font-family: Tahoma;
+    font-size: 85%;
+} 
+
+ul {
+    list-style: none;
+}
+
+#contenedor {
+    width: 800px;
+    background-color: #F2F5FE;
+    margin: 0 auto;
+}
+
+#cabecera {
+    background-image: url("images/cabecera.jpg");
+    background-repeat: no-repeat;
+    height: 100px; 
+    color:white;
+}
+
+#cabecera h1 {
+    padding-left: 20px;
+    padding-top: 24px;
+    font-family: Arial;
+}
+
+#cabecera a.inicio {
+    float: right;
+    padding-top: 24px;
+    background: url("images/home.png");
+    background-repeat: no-repeat;
+    color:transparent;
+}
+
+#cabecera a.inicio:hover {
+    background: url("images/home2.png");
+    background-repeat: no-repeat;
+    color:transparent;
+}
+
+#menu {
+    width: 790px;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-left: 2px;
+    border-right: 4px solid white;
+    font-family: Verdana;
+    float: left;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu a {
+    float: left;
+    width: 18.2%;
+    text-decoration: none;
+    color: #ff0000;
+    text-align: center;
+    background-color: #CEE3F6;
+    border-left: 4px solid white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#menu a:hover {
+    color: #ffffff;
+    background-color: #336699;
+}
+
+#columna1 {
+    padding: 10px;
+    float: left;
+    width: 375px;
+    text-align: justify;
+}
+
+#columna1 h1 {
+    color: red;
+    text-align: center;
+}
+
+#columna1 img {
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+
+#columna1 table {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: "Verdana";
+    font-size: 11px;
+    text-align: center;
+    border: 1px solid #666;
+    border-collapse: collapse;
+}
+
+#columna1 th {
+    background-color: #F7D358;
+    padding: 3px;
+    border: 1px solid #666;
+}
+
+#columna1 td {
+    padding: 3px;
+    border: 1px solid #666;
+}
+
+#columna2{
+    padding: 10px;
+    float: left;
+    width: 375px;
+    text-align: justify;
+}
+
+#columna2 h1 {
+    color: red;
+    text-align: center;
+}
+
+#columna2 img {
+    width: 350px;
+    padding: 10px;
+    float: right;
+}
+
+#pie {
+    margin-top: 131%;
+    height: 50px;
+    background: url("images/fondo2.jpg");
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: Arial;
+    text-align: center;
+}

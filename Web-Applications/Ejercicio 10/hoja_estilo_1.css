@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(184, 187, 190);
+}
+ul {
+    background-color: purple;
+    color:red;
+    width: 15%
+}
+a {
+    color:blue
+}
+h1 {
+    color: white;
+    font-family: Comic Sans MS;
+}
+p {
+    background-color: rgb(116, 133, 58);
+    width: 18%;
+    color: red;
+    text-align: center;
+    font-size: 120%;
+}
+h2 {
+    color: red;
+    font-style: italic;
+    text-transform: lowercase;
+    font-family: Arial, Helvetica, sans-serif;
+}

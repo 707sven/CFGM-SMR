@@ -1,0 +1,33 @@
+body {
+    padding-left: 12em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+    background-color: #d8da3d;
+}
+
+h1 {
+    font-family: Comic Sans MS;
+}
+
+ul {
+    padding: 0em;
+    margin: 0em;
+    position: fixed;
+    left: 3.1em;
+    top: 6.2em;
+}
+
+img {
+    float: right;
+    margin-right: 3.1em;
+}
+
+p {
+    width: 30%;
+    padding: 0.7em;
+    margin-right: 30em;
+    color: black;
+    background-color: plum;
+    border: 0.35em solid brown;
+}
+

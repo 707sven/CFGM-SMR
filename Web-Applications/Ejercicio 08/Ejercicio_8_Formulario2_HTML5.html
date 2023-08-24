@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Formulario 2 HTML 5</title>
+</head>
+<body>
+    <table height="40%" width="40%" align="center" border="1" cellpadding="20" bgcolor="FFFF00">
+        <caption><h1><b>DATOS DE EMPLEADOS</b></h1></caption>
+        <form action="">
+            <tr>
+                <td>
+                    <h2 style="color:red" align="center">Teclea datos de empleados.</h2>
+                    Nombre de empleado: <input type="text" name="nombre" placeholder="Nombre de empleado" autofocus required>
+                    <br>
+                    <br>
+                    Fecha de nacimiento: <input type="date" name="Fecha" required>
+                    <br>
+                    <br>
+                    Salario (entre 900 y 2000): <input type="number" min="900" max="2000" name="salario" placeholder="Salario del empleado" required> €
+                    <br>
+                    <br>
+                    Email: <input type="email" name="email" placeholder="Correo electrónico">
+                    <br>
+                    <br>
+                    Mes de alta: <input type="month" name="mes">
+                    <br>
+                    <br>
+                    <div align="center">
+                        <input type="submit" value="Enviar">
+                        <input type="button" value="Abrir Formulario 1" onclick="window.open ('Ejercicio_7_Formulario1.html');">
+                        <input type="button" value="Abrir Formulario 2" onclick="window.open ('Ejercicio_7_Formulario2.html');">
+                        <input type="reset" value="Limpiar">
+                    </div>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

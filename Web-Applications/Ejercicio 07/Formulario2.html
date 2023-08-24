@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title>Formulario 2</title>
+</head>
+<body>
+    <table align="center" border="1" bordercolor="000000" cellpadding="10" cellspacing="2"  bgcolor="ffcad8"
+    width="70%" height="40%">
+    <caption><h1><b>DATOS DE ALUMNOS - CONTINUACIÓN</b></h1></caption>
+    <tr>
+        <td>
+            <h3 style="color:#FF0000" align="center">
+                Teclea más datos.
+            </h3>
+            <form action="" style="color:#2341eb">
+                Teclea día de nacimiento..: <input type="text" name="dia" size="10" maxlength="10">
+                Selecciona mes de nacimiento..: <select name="mes">
+                    <option>Enero</option>
+                    <option>Febrero</option>
+                    <option>Marzo</option>
+                    <option>Abril</option>
+                    <option>Mayo</option>
+                    <option>Junio</option>
+                    <option>Julio</option>
+                    <option>Agosto</option>
+                    <option>Septiembre</option>
+                    <option>Octubre</option>
+                    <option>Noviembre</option>
+                    <option>Diciembre</option>
+                </select>
+                Teclea año de nacimiento..: <input type="text" name="año" size="10" maxlength="10">
+                <br>
+                <br>
+                Selecciona el curso..: <select name="curso">
+                    <option>Primero SMR</option>
+                    <option>Segundo SMR</option>
+                </select>
+                <hr style="color:#a3a7b8">
+                Elige 3 materias optativas 
+                <input type="checkbox" name="ingles"> Inglés
+                <input type="checkbox" name="frances"> Francés
+                <input type="checkbox" name="deporte"> Deporte
+                <input type="checkbox" name="astronomia"> Astronomía
+                <input type="checkbox" name="historia"> Historia
+                <input type="checkbox" name="pagina"> Páginas web
+                <input type="checkbox" name="redes"> Redes
+                <hr style="color:#a3a7b8">
+                Selecciona el turno
+                <input type="radio" name="turno"> Diurno
+                <input type="radio" name="turno"> Nocturno
+                <input type="radio" name="turno"> Vespertino
+                <hr style="color:#a3a7b8">
+                <div align="center">
+                <input type="submit" value="Enviar datos">
+                <input type="reset" value="Limpiar datos">
+                <input type="button" value="Cerrar ventana" onclick="window.close();">
+                <input type="button" value="Anterior formulario" onclick="window.open ('Formulario1.html');">
+                </div>
+        </td>
+    </table>
+</body>
+</html>
